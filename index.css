@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/****************************/
+/*****ANASAYFA BASLANGIC*****/
+/****************************/
+
+/*HEADER BASLANGIC*/
+.header-index{
+    background-image: linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .8)) , url(img/home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar-toggler{
+    color: #fff;
+    background-color: #fff;
+}
+.collapse{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.collapse-menu2 li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.collapse-menu2 li a{
+    font-weight: 500;
+}
+.nav-item:not(:last-child){
+    margin-right: 1rem;
+}
+.nav-link{
+    color: #fff;
+    transition: all .3s linear;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.nav-link:hover{
+    color: rgb(134, 130, 130);
+}
+.main-text{
+    height: 70vh;
+}
+.main-text-item h1{
+    font-size: 50px;
+}
+
+/*SECTION ABOUT BASLANGIC*/
+.aboutFirst{
+    margin-top: 4.5rem;
+}
+.aboutSecond{
+    background-image: linear-gradient(rgba(0, 0, 0, .8) , rgba(0, 0, 0, .8)) , url(img/home.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 6rem 0;
+}
+.aboutSecond-item button{
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: .5rem 1.5rem;
+}
+.aboutSecond-item button:hover{
+    background-color: #fff;
+    color: gray;
+}
+
+/*SECTION BLOG BASLANGIC*/
+.image{
+    margin-bottom: 1rem;
+}
+.image img{
+    width: 100%;
+}
+
+
+
+
+
+
+@media (max-width:576px){
+    .navbar-brand img{
+        width: 250px;
+    }
+    .main-text-item h1{
+        font-size: 40px;
+    }
+}
