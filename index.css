@@ -183,10 +183,64 @@ ul{
 .text-link span a{
     text-decoration: underline;
 }
+/****************************/
+/*****ANASAYFA BITIS*****/
+/****************************/
+
+/****************************/
+/*****TAKIM BASLANGIC*****/
+/****************************/
+
+/*HEADER ALANI BASLANGIC*/
+.header-team{
+    background-image: linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .8)) , url(img/hero.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.header-text{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.header-text-item h1{
+    letter-spacing: .5rem;
+}
+
+/*TAKIM ALANI BASLANGIC*/
+.teamFiltre-link{
+    border-bottom: 2px solid #a1a1a1;
+}
+.teamFiltre-list li{
+    margin-bottom: .6rem;
+}
+.teamFiltre-list li a{
+    color: #a1a1a1;
+    font-weight: 500;
+    transition: all .3s;
+}
+.teamFiltre-list li:hover a{
+    color: #990033;
+}
+.teamFiltre-list li:first-child a{
+    color: #990033;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 @media (max-width:768px){
+    /*ANASAYFA*/
     .footer-index{
         text-align: center;
     }
@@ -198,6 +252,7 @@ ul{
 
 
 @media (max-width:576px){
+    /*ANASAYFA*/
     .navbar-brand img{
         width: 250px;
     }
