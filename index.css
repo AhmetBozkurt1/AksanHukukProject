@@ -87,9 +87,113 @@ ul{
 .image img{
     width: 100%;
 }
+/*FOOTER BASLANGIC*/
+.footer-index{
+    background-color: #020a20;
+    padding: 3rem 0;
+}
+.footer-indexLeft-text h6{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.text-first{
+    font-size: .9rem;
+    margin-bottom: .5rem;
+}
+.text-second{
+    font-size: .8rem;
+    margin-bottom: 0;
+}
+.footer-indexLeft-list li{
+    display: inline-block;
+    margin-right: .5rem;
+    font-size: .8rem;
+}
+.footer-indexLeft-link h6{
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+    font-size: .9rem;
+}
+.footer-indexLeft-link-list a{
+    font-size: .8rem;
+    transition: all .3s;
+}
+.footer-indexLeft-link-list li:hover a{
+    color: gray;
+}
+.footer-indexRight-Link h6{
+    font-size: .9rem;
+    color: #fff;
+}
+.footer-indexRight-list li a{
+    font-size: .8rem;
+    transition: all .3s;
+}
+.footer-indexRight-list li:hover a{
+    color: gray;
+}
+.list-mb{
+    margin-top: 2rem;
+}
+.form-control{
+    border-radius: 0;
+    border: 2px solid #fff;
+    background-color: #020a20;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: 2px solid #fff;
+    background-color: #020a20;
+    color: #fff;
+    font-size: .8rem;
+}
+.form-control::placeholder{
+    color: gray;
+    font-size: .8rem;
+}
+.footer-button{
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: .5rem 2rem;
+}
+.footer-button:hover{
+    border: 2px solid #fff;
+    color: #020a20;
+    background-color: #fff;
+}
+.footer-button:focus{
+    border: 2px solid #fff;
+}
+.social-media-list li a{
+    font-size: 1.7rem;
+    transition: all .3s;
+}
+.social-media-list li a:hover{
+    color: gray;
+}
+.telif h6{
+    color: #fff;
+    font-size: .7rem;
+}
+.text-link span{
+    margin-right: 5rem;
+}
+.text-link span a{
+    text-decoration: underline;
+}
 
 
 
+@media (max-width:768px){
+    .footer-index{
+        text-align: center;
+    }
+    .footer-indexRight{
+        display: none;
+    }
+}
 
 
 
@@ -99,5 +203,35 @@ ul{
     }
     .main-text-item h1{
         font-size: 40px;
+    }
+    .footer-index{
+        text-align: center;
+    }
+    .footer-indexRight{
+        display: none;
+    }
+    .form-control{
+        display: block;
+        width: 100%;
+    }
+    .footer-button{
+        display: block;
+        width: 100%;
+        border-radius: 0;
+        border-top: none;
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .text-link{
+        margin-left: 2rem;
+    }
+    .text-link span{
+        margin-right: 2rem;
+    }
+    .text-link span a{
+        font-size: .8rem;
     }
 }
