@@ -52,10 +52,11 @@ ul{
     color: rgb(134, 130, 130);
 }
 .main-text{
-    height: 70vh;
+    height: 86vh;
 }
 .main-text-item h1{
-    font-size: 50px;
+    font-size: 44px;
+    margin-bottom: 1rem;
 }
 
 /*SECTION ABOUT BASLANGIC*/
@@ -208,6 +209,8 @@ ul{
 }
 
 /*TAKIM ALANI BASLANGIC*/
+
+/* takım alanı sol taraf */
 .teamFiltre-link{
     border-bottom: 2px solid #a1a1a1;
 }
@@ -225,6 +228,77 @@ ul{
 .teamFiltre-list li:first-child a{
     color: #990033;
 }
+.input-text{
+    color: #990033;
+}
+.input-width{
+    width: 100%;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    color: #999999;
+    font-size: .9rem;
+}
+.input-border{
+    border: none;
+    border-bottom: 2px solid #dfdfdf;
+}
+.teamFiltre-input input::placeholder{
+    color: #999999;
+}
+.teamFiltre-input input:focus{
+    outline: none;
+    border-bottom: 2px solid #020a20;
+}
+.input-button{
+    text-align: center;
+}
+.input-button button{
+    background: none;
+    border: none;
+    color: #999999;
+    border-bottom: 2px solid #a1a1a1;
+    padding: .1rem 1.2rem;
+    transition: all .3s;
+}
+.input-button button:hover{
+    background-color: #020a20;
+    color: #fff;
+    border-bottom: 2px solid #020a20;
+}
+.alphabetic-search{
+    border-bottom: 2px solid #a1a1a1;
+    padding-bottom: 1.5rem;
+}
+.alphabetic-search h5{
+    color: #990033;
+}
+.alphabetic-list li{
+    display: inline-block;
+    margin-right: .5rem;
+}
+.alphabetic-list a{
+    color: #999999;
+    transition: all .3s;
+}
+.alphabetic-list li:hover a{
+    color: #990033;
+}
+/* takım alanı sağ taraf */
+.teamPerson-profile img{
+    width: 100%;
+}
+.teamPerson-profile{
+    text-align: center;
+}
+.teamPerson-name a{
+    color: #020a20;
+}
+.teamPerson-name a:hover{
+    color:#990033
+}
+/****************************/
+/*****TAKIM BITIS*****/
+/****************************/
 
 
 
@@ -239,7 +313,8 @@ ul{
 
 
 
-@media (max-width:768px){
+
+@media (max-width:769px){
     /*ANASAYFA*/
     .footer-index{
         text-align: center;
@@ -247,12 +322,54 @@ ul{
     .footer-indexRight{
         display: none;
     }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .form-control{
+        display: block;
+        width: 100%;
+    }
+    .footer-button{
+        display: block;
+        width: 100%;
+        border-radius: 0;
+        border-top: none;
+    }
+    .text-link{
+        margin-left: 2rem;
+    }
+    .text-link span{
+        margin-right: 2rem;
+    }
+    .text-link span a{
+        font-size: .8rem;
+    }
+    .container{
+        max-width: 90%;
+    }
+    .teamPerson{
+        margin-top: 3rem;
+    }
+    .teamFiltre-link{
+        text-align: center;
+    }
+    .input-text{
+        text-align: center;
+    }
+    .alphabetic-search h5{
+        text-align: center;
+    }
 }
 
 
 
 @media (max-width:576px){
     /*ANASAYFA*/
+    .container{
+        max-width: 100%;
+    }
     .navbar-brand img{
         width: 250px;
     }

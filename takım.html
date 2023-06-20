@@ -21,10 +21,10 @@
                 <div class="collapse-menu order-2">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Anasayfa</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Anasayfa</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Takım</a>
+                        <a class="nav-link" href="takım.html">Takım</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link">Hizmet Noktalarımız</a>
@@ -48,11 +48,11 @@
         </main>
     </header>
 
-    <section class="aksanHukuk-team mt-3">
+    <section class="aksanHukuk-team mt-5">
         <div class="container">
-            <div class="row">
-                <div class="teamFiltre col-3">
-                    <div class="teamFiltre-link py-4">
+            <div class="row justify-content-between">
+                <div class="teamFiltre col-md-3">
+                    <div class="teamFiltre-link">
                         <ul class="teamFiltre-list">
                             <li><a href="">HEPSİ</a></li>
                             <li><a href="">ORTAKLAR</a></li>
@@ -61,11 +61,477 @@
                             <li><a href="">STAJYERLER</a></li>
                         </ul>
                     </div>
+                    <div class="teamFiltre-input mt-5">
+                      <h5 class="input-text">Detaylı Arama</h5>
+                      <input class="input-width input-border" type="text" placeholder="Ad">
+                      <input class="input-width input-border" type="text" placeholder="Soyad">
+                      <input class="input-width input-border" type="text" placeholder="Anahtar Kelime">
+                      <select name="hizmet" id="hizmet" class="input-first-select input-width input-border">
+                        <option value="" selected>Hizmet Noktası</option>
+                        <option value="">İstanbul</option>
+                        <option value="">Teknopark İstanbul</option>
+                      </select>
+                      <select class="input-second-select input-width input-border" name="" id="">
+                        <option value="" selected>Çalışma Alanı</option>
+                        <option value="">Aile Hukuku</option>
+                        <option value="">Arabuluculuk Hizmetleri</option>
+                        <option value="">Birleşme ve Devralmalar</option>
+                        <option value="">Ceza Hukuku</option>
+                        <option value="">Fikri Mülkiyet Hukuku</option>
+                        <option value="">İcra ve İflas Hukuku</option>
+                        <option value="">Rekabet Hukuku</option>
+                        <option value="">Kişisel Verilerin Korunması</option>
+                        <option value="">İş Sağğlığı ve Güvenliği Hukuku</option>
+                        <option value="">Şirketler Hukuku</option>
+                        <option value="">Özelleştirme Hukuku</option>
+                        <option value="">Vergi Hukuku</option>
+                      </select>
+                      <select class="input-third-select input-width input-border" name="" id="">
+                      <option value="" selected>Endüstri</option>
+                        <option value="">Bankacılık ve Finans</option>
+                        <option value="">Basın ve Medya</option>
+                        <option value="">Bilişim Hukuku</option>
+                        <option value="">Blockchain Teknolojileri</option>
+                        <option value="">Enerji ve Madencilik Hukuku</option>
+                        <option value="">E-Ticaret Hukuku</option>
+                        <option value="">Gayrimenkul Hukuku</option>
+                        <option value="">Girişim Sermayesi Yatırımları</option>
+                        <option value="">Sağlık ve İlaç Hukuku</option>
+                        <option value="">Sigorta Hukuku</option>
+                        <option value="">Elektronik Para ve Ödeme Hizmetleri</option>
+                        <option value="">Vergi Hukuku</option>
+                      </select>
+                      <div class="input-button">
+                        <button>Ara</button>
+                      </div>
+                    </div>
+                    <div class="alphabetic-search mt-5">
+                      <h5>Alfabetik Sıralama</h5>
+                      <ul class="alphabetic-list">
+                        <li><a href="">A</a></li>
+                        <li><a href="">B</a></li>
+                        <li><a href="">C</a></li>
+                        <li><a href="">D</a></li>
+                        <li><a href="">E</a></li>
+                        <li><a href="">F</a></li>
+                        <li><a href="">G</a></li>
+                        <li><a href="">H</a></li>
+                        <li><a href="">I</a></li>
+                        <li><a href="">J</a></li>
+                        <li><a href="">K</a></li>
+                        <li><a href="">L</a></li>
+                        <li><a href="">M</a></li>
+                        <li><a href="">N</a></li>
+                        <li><a href="">O</a></li>
+                        <li><a href="">P</a></li>
+                        <li><a href="">Q</a></li>
+                        <li><a href="">R</a></li>
+                        <li><a href="">S</a></li>
+                        <li><a href="">T</a></li>
+                        <li><a href="">U</a></li>
+                        <li><a href="">V</a></li>
+                        <li><a href="">W</a></li>
+                        <li><a href="">X</a></li>
+                        <li><a href="">Y</a></li>
+                        <li><a href="">Z</a></li>
+                      </ul>
+                    </div>
                 </div>
-                <div class="teamPerson col-9"></div>
+                <div class="teamPerson col-md-8">
+                  <div class="row row-gap-4">
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card1.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card2.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">Oliver Taylor</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Yönetici Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card1.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">Jack Jones</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card2.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card1.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card2.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card1.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card2.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card1.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card2.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card1.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card2.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card1.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="teamPerson-profile">
+                        <img src="img/card2.jpg" alt="">
+                        <div class="teamPerson-text mt-4">
+                          <div class="teamPerson-name">
+                            <a href="">George Orwell</a>
+                          </div>
+                          <div class="teamPerson-statu">
+                            <p>Kurucu Ortak</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <footer class="footer-index">
+      <div class="container">
+          <div class="row">
+              <div class="footer-indexLeft col-md-8">
+                  <div class="row">
+                      <div class="col-md-6 text-white">
+                          <div class="footer-indexLeft-text">
+                              <h6 class="mb-4">En Son Haberler</h6>
+                              <p class="text-first">Zeynep Aksan Operasyon Yöneticisi Olarak...</p>
+                              <p class="text-second">Aksan Hukuk Bürosu olarak, Av. Zeynep Aksan’ın ofisimizde Operasyon Yöneticisi olarak göreve başladığını duyurmaktan mut...</p>
+                              <ul class="footer-indexLeft-list">
+                                  <li><i class="bi bi-calendar3"></i></li>
+                                  <li>27.10.2022</li>
+                              </ul>
+                          </div>
+                          <div class="footer-indexLeft-text mt-3">
+                              <p class="text-first">Önemli Bilgilendirme</p>
+                              <p class="text-second">Hukuk büromuzun telefon numarası 02122498383 olup bu numara dışında kendini büromuzla irtibatlı göstererek aramalar yapa...</p>
+                              <ul class="footer-indexLeft-list">
+                                  <li><i class="bi bi-calendar3"></i></li>
+                                  <li>16.08.2022</li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="footer-indexLeft-link">
+                              <h6 class="text-white">HAKKIMIZDA</h6>
+                              <ul class="footer-indexLeft-link-list">
+                                  <li><a href="">Tarihçe</a></li>
+                                  <li><a href="">Vizyonumuz</a></li>
+                                  <li><a href="">Misyonumuz</a></li>
+                              </ul>
+                              <div class="first-link mt-5">
+                                  <h6><a href="">HİZMET NOKTALARI</a></h6>
+                                  <h6><a href="">İLETİŞİM</a></h6>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="footer-indexLeft-link">
+                              <h6 class="text-white">TAKIM</h6>
+                              <ul class="footer-indexLeft-link-list">
+                                  <li><a href="">Ortaklar</a></li>
+                                  <li><a href="">Avukatlar</a></li>
+                                  <li><a href="">Danışmanlar</a></li>
+                                  <li><a href="">Stajyerler</a></li>
+                              </ul>
+                              <div class="first-link mt-5">
+                                  <h6><a href="">KARİYER</a></h6>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer-indexRight col-4">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="footer-indexRight-Link">
+                              <h6 class="mb-4">HİZMETLER</h6>
+                              <ul class="footer-indexRight-list">
+                                  <li>
+                                      <a href="#">Aile Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Arabuluculuk Hizmetleri</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Bankacılık ve Finans</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Basın ve Medya</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Bilişim Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Birleşme ve Devralmalar</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Blockchain Teknolojileri</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Ceza Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Dava ve Uyuşmazlık Çözümü</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Elektronik Para ve Ödeme Hizmetleri</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Enerji ve Madencilik Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">E-Ticaret Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Fikri Mülkiyet Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">GayrimenkuL Hukuku</a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="footer-indexRight-Link col-md-6 mt-5">
+                          <div class="footer-indexRight-Link">
+                              <ul class="footer-indexRight-list">
+                                  <li>
+                                      <a href="#">Girişim Sermayesi Yatırımları</a>
+                                  </li>
+                                  <li>
+                                      <a href="">İcra ve İflas Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">İş ve Sosyal Güvenlik Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Kişisel Verilerin Korunması</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Özelleştirme Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Rekabet Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Sağlık ve İlaç Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Sigorat Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Şirketler Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Tüketici Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Uluslararası İşlemler ve Uyuşmazlık Çözümü</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Uluslararası Ticaret Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Vergi Hukuku</a>
+                                  </li>
+                                  <li>
+                                      <a href="">Yabancılar ve Vatandaşlık Hukuku</a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="footer-input row">
+              <div class="col-md-4">
+                  <div class="input-contact">
+                      <h6 class="text-white">İRTİBAT HALİNDE KALIN</h6>
+                      <div class="input-group mb-3 mt-4">
+                          <input type="text" class="form-control" placeholder="E-posta adresinizi yazınız" aria-label="Recipient's username" aria-describedby="button-addon2">
+                          <button class="btn footer-button" type="button" id="button-addon2">Abone Ol</button>
+                        </div>
+                      </div>
+                  </div>
+          </div>
+          <div class="footer-socialMedia row mt-4">
+              <div class="col-md-8">
+                  <div class="row justify-content-between">
+                      <div class="col-md-4 social-media">
+                          <div class="social-media-icon">
+                              <ul class="social-media-list d-flex column-gap-5">
+                                  <li>
+                                      <a href=""><i class="bi bi-facebook"></i></a>
+                                  </li>
+                                  <li>
+                                      <a href=""><i class="bi bi-twitter"></i></a>
+                                  </li>
+                                  <li>
+                                      <a href=""><i class="bi bi-linkedin"></i></a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="telif">
+                              <h6>Tüm hakları saklıdır.2016 Aksan Hukuk Bürosu</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-text row mt-3">
+              <div class="col-md-6">
+                  <div class="text-link">
+                      <span><a href="">Aydınlatma Metni</a></span>
+                      <span><a href="">Çerez Politikası</a></span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
 
 
 
