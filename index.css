@@ -300,8 +300,73 @@ ul{
 /*****TAKIM BITIS*****/
 /****************************/
 
+/****************************/
+/*****HIZMET BASLANGIC*****/
+/****************************/
 
-
+/*Header baslangıc*/
+.headerService{
+    background-image: linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .8)) , url(img/header-clock.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.headerService-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+/*Contact Baslangıc*/
+.office-text-main{
+    height: 30vh;
+}
+.office-text-first h5{
+    color: #990033;
+}
+.contact-image-first{
+    background-image: linear-gradient(rgba(96, 109, 134, 0.4) , rgba(96, 109, 134, .4)) , url(img/istanbul.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.contact-image-title{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-image-text h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+.contact-text{
+    display: flex;
+    justify-content: center;
+}
+.contact-info{
+    display: flex;
+    column-gap: 1.3rem;
+}
+.info-email a{
+    color: black;
+}
+.button-first button{
+    background: none;
+    border: none;
+    color: #999999;
+    border-bottom: 2px solid #020a20;
+    transition: all .4s;
+}
+.button-first button:hover{
+    color: #fff;
+    background-color: #020a20;
+}
+.contact-image-second{
+    background-image: linear-gradient(rgba(96, 109, 134, 0.4) , rgba(96, 109, 134, .4)) , url(img/teknopark.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 
 
