@@ -286,6 +286,11 @@ ul{
 /* takım alanı sağ taraf */
 .teamPerson-profile img{
     width: 100%;
+    filter: grayscale(1);
+    transition: all .5s;
+}
+.teamPerson-profile img:hover{
+    filter: grayscale(0);
 }
 .teamPerson-profile{
     text-align: center;
